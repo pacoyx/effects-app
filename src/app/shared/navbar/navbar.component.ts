@@ -18,7 +18,7 @@ export class NavbarComponent implements OnInit {
     if (!id) {
       return;
     }
-    this.router.navigate(['usuario/5']);
+    this.router.navigate(['usuario/' + id]);
 
 
 
